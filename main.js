@@ -5,7 +5,7 @@ btn.addEventListener('click', function(){
     formStauts.style.display = "none";
     var i = 0;
     var message =
-        `Dear ${user_name} Your Are My Love.....!   
+        `Dear ${user_name} You Are My Love.....!   
         **             Now I wan't to say something special to you. 
         **              So , Please read everything carefully...!  
         ?क्या चाहूँ ❤️ रब से तुम्हें पाने के बाद,
