@@ -1,4 +1,9 @@
 let btn = document.getElementById('button');
+let user = document.getElementById('userName').value;
+if(user == 0){
+    
+}
+else{
 btn.addEventListener('click', function(){
     let user_name = document.getElementById("userName").value;
     let formStauts = document.getElementById("form_name");
@@ -50,3 +55,4 @@ btn.addEventListener('click', function(){
         }
     }
 });
+}
