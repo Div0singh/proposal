@@ -2,10 +2,14 @@ let btn = document.getElementById('button');
 btn.addEventListener('click', function(){
     let user_name = document.getElementById("userName").value;
     let formStauts = document.getElementById("form_name");
+    if(user_name == 0){
+        document.getElementById("userName").setAttribute = "required";
+    }
+    else{
     formStauts.style.display = "none";
     var i = 0;
     var message =
-        `Dear ${user_name} You Are My Love.....!   
+        `Dear ${user_name} Your Are My Love.....!   
         **             Now I wan't to say something special to you. 
         **              So , Please read everything carefully...!  
         ?क्या चाहूँ ❤️ रब से तुम्हें पाने के बाद,
@@ -49,4 +53,5 @@ btn.addEventListener('click', function(){
             setTimeout(writemessage, 50)
         }
     }
+}
 });
